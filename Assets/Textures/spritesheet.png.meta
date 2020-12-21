@@ -28,28 +28,28 @@ TextureImporter:
     second: mur_barreau
   - first:
       213: 7401702256180518906
-    second: 0x72_16x16DungeonTileset.v4_8
+    second: degoulinure_1
   - first:
       213: -8168956363209427361
-    second: 0x72_16x16DungeonTileset.v4_9
+    second: poignard_bleu
   - first:
       213: 3464155034166208913
-    second: 0x72_16x16DungeonTileset.v4_10
+    second: poignard_orange
   - first:
       213: -4590863263307369687
-    second: 0x72_16x16DungeonTileset.v4_11
+    second: poignard_clair
   - first:
       213: 5346793723966489441
-    second: 0x72_16x16DungeonTileset.v4_12
+    second: icone_beige_moyen
   - first:
       213: -451688941019097673
-    second: 0x72_16x16DungeonTileset.v4_13
+    second: icone_blanc_casse_moyen
   - first:
       213: 8901929280354850880
-    second: 0x72_16x16DungeonTileset.v4_14
+    second: icone_pierre_moyen
   - first:
       213: -5122681035914893960
-    second: 0x72_16x16DungeonTileset.v4_15
+    second: icone_violet_moyen
   - first:
       213: -7476853483033896908
     second: mur_gauche
@@ -61,10 +61,10 @@ TextureImporter:
     second: mur_droite
   - first:
       213: -8167126452187029819
-    second: 0x72_16x16DungeonTileset.v4_19
+    second: mur_fuite_verte
   - first:
       213: -1361928931727379795
-    second: 0x72_16x16DungeonTileset.v4_20
+    second: mur_grille_sol
   - first:
       213: -8739567100506618442
     second: escalier_gauche
@@ -73,31 +73,31 @@ TextureImporter:
     second: escalier_droite
   - first:
       213: 7833055168305552414
-    second: 0x72_16x16DungeonTileset.v4_23
+    second: degoulinure_2
   - first:
       213: 7772023239941060108
-    second: 0x72_16x16DungeonTileset.v4_24
+    second: degoulinure_3
   - first:
       213: 4955124197649223790
-    second: 0x72_16x16DungeonTileset.v4_25
+    second: epee_bois
   - first:
       213: 5641877302254389343
-    second: 0x72_16x16DungeonTileset.v4_26
+    second: epee_mi_bois_mi_bleue
   - first:
       213: 2055787842960561569
-    second: 0x72_16x16DungeonTileset.v4_27
+    second: epee_bleue
   - first:
       213: 3240840401627133884
-    second: 0x72_16x16DungeonTileset.v4_28
+    second: epee_bleue_rubis
   - first:
       213: -2700424241990515698
-    second: 0x72_16x16DungeonTileset.v4_29
+    second: epee_bleue_grosse
   - first:
       213: -3342418441360279481
-    second: 0x72_16x16DungeonTileset.v4_30
+    second: sabre_grand
   - first:
       213: 8161883964827787326
-    second: 0x72_16x16DungeonTileset.v4_31
+    second: icone_blanc_casse_petit
   - first:
       213: -2205614050600966826
     second: mur_bas_1
@@ -109,10 +109,10 @@ TextureImporter:
     second: mur_bas_3
   - first:
       213: 54058358359700898
-    second: 0x72_16x16DungeonTileset.v4_35
+    second: mur_bas_fuite_verte
   - first:
       213: 2734835179166247975
-    second: 0x72_16x16DungeonTileset.v4_36
+    second: mur_abime_1
   - first:
       213: 440307803353817776
     second: escalier_bas_gauche
@@ -121,46 +121,46 @@ TextureImporter:
     second: escalier_bas_droite
   - first:
       213: -7588191219272095646
-    second: 0x72_16x16DungeonTileset.v4_39
+    second: icone_vert_pale_grand
   - first:
       213: -3247600430201557193
-    second: 0x72_16x16DungeonTileset.v4_40
+    second: icone_vert_pale_petit
   - first:
       213: 4152677753436166499
-    second: 0x72_16x16DungeonTileset.v4_41
+    second: icone_bordeaux_grand
   - first:
       213: -6418292544756288219
-    second: 0x72_16x16DungeonTileset.v4_42
+    second: epee_orange_longue
   - first:
       213: -537612006178497969
-    second: 0x72_16x16DungeonTileset.v4_43
+    second: icone_rouge_petit
   - first:
       213: -4596637015259150736
-    second: 0x72_16x16DungeonTileset.v4_44
+    second: icone_marron_petit
   - first:
       213: 3371591530689715478
-    second: 0x72_16x16DungeonTileset.v4_45
+    second: icone_bleu_petit
   - first:
       213: 8177203260375688589
-    second: 0x72_16x16DungeonTileset.v4_46
+    second: icone_bleu_fonce_moyen
   - first:
       213: -3163861510159893632
-    second: 0x72_16x16DungeonTileset.v4_47
+    second: marteau_grand
   - first:
       213: -6813459960075662660
-    second: 0x72_16x16DungeonTileset.v4_48
+    second: haut_mur_tete_haute
   - first:
       213: -4356875786548134849
-    second: 0x72_16x16DungeonTileset.v4_49
+    second: crane
   - first:
       213: 4332630308760004205
     second: sol
   - first:
       213: -5030652304744387892
-    second: 0x72_16x16DungeonTileset.v4_51
+    second: haut_mur_tete_basse
   - first:
       213: 1496308625924154054
-    second: 0x72_16x16DungeonTileset.v4_52
+    second: mur_abime_2
   - first:
       213: 2147933641813395268
     second: mur_tuyau_3
@@ -169,55 +169,55 @@ TextureImporter:
     second: mur_pillier_haut
   - first:
       213: 2376768342172223262
-    second: 0x72_16x16DungeonTileset.v4_55
+    second: sabre_moyen
   - first:
       213: -2975424738662232555
-    second: 0x72_16x16DungeonTileset.v4_56
+    second: couteau_bleu
   - first:
       213: -4956003947521150149
-    second: 0x72_16x16DungeonTileset.v4_57
+    second: epee_orange
   - first:
       213: 782103835994319988
-    second: 0x72_16x16DungeonTileset.v4_58
+    second: icone_orange_petit
   - first:
       213: 4409113622068996459
-    second: 0x72_16x16DungeonTileset.v4_59
+    second: sabre_grand_clair
   - first:
       213: 4574055825614841866
-    second: 0x72_16x16DungeonTileset.v4_60
+    second: eppe_grande_claire
   - first:
       213: -6309305828789913162
-    second: 0x72_16x16DungeonTileset.v4_61
+    second: epee_grande_claire_rubis
   - first:
       213: -7969836507740337112
-    second: 0x72_16x16DungeonTileset.v4_62
+    second: epee_or
   - first:
       213: 1151145523655133911
     second: bombe
   - first:
       213: -4194447238987366046
-    second: 0x72_16x16DungeonTileset.v4_64
+    second: mur_tete_source_rouge_vers_bac
   - first:
       213: 1530533185701123577
-    second: 0x72_16x16DungeonTileset.v4_65
+    second: mur_tete_source_verte_vers_bac
   - first:
       213: -5531626570724007139
-    second: 0x72_16x16DungeonTileset.v4_66
+    second: mur_tete_source_bleue_vers_bac
   - first:
       213: 6566196567660819701
-    second: 0x72_16x16DungeonTileset.v4_67
+    second: mur_tete_source_rouge_vers_sol
   - first:
       213: 2743728609971670730
-    second: 0x72_16x16DungeonTileset.v4_68
+    second: mur_tete_source_verte_vers_sol
   - first:
       213: 1240197761351651666
-    second: 0x72_16x16DungeonTileset.v4_69
+    second: mur_tete_source_bleue_vers_sol
   - first:
       213: -5109143153236730000
     second: mur_pillier
   - first:
       213: -1485701173298525305
-    second: 0x72_16x16DungeonTileset.v4_71
+    second: icone_bleu_clair_petit
   - first:
       213: -2488788921944096104
     second: 0x72_16x16DungeonTileset.v4_72
@@ -226,10 +226,10 @@ TextureImporter:
     second: 0x72_16x16DungeonTileset.v4_73
   - first:
       213: -1472879302257076896
-    second: 0x72_16x16DungeonTileset.v4_74
+    second: haut_gauche_mur_tete
   - first:
       213: -8268174393364942813
-    second: 0x72_16x16DungeonTileset.v4_75
+    second: haut_droite_mur_tete
   - first:
       213: 2501964050858782493
     second: mur_drapeau_rouge
@@ -244,229 +244,229 @@ TextureImporter:
     second: mur_drapeau_jaune
   - first:
       213: 3215704226183842525
-    second: 0x72_16x16DungeonTileset.v4_80
+    second: sol_liquide_rouge_tete_bac
   - first:
       213: -5937357150717488392
-    second: 0x72_16x16DungeonTileset.v4_81
+    second: sol_liquide_verte_tete_bac
   - first:
       213: -4012883344477111056
-    second: 0x72_16x16DungeonTileset.v4_82
+    second: sol_liquide_bleue_tete_bac
   - first:
       213: 2183079497979216906
-    second: 0x72_16x16DungeonTileset.v4_83
+    second: sol_liquide_rouge_tete_basse
   - first:
       213: -8237541199133617488
-    second: 0x72_16x16DungeonTileset.v4_84
+    second: sol_liquide_verte_tete_basse
   - first:
       213: -4384365108166562267
-    second: 0x72_16x16DungeonTileset.v4_85
+    second: sol_liquide_bleue_tete_basse
   - first:
       213: -3743580344185070188
     second: mur_pillier_bas
   - first:
       213: 9132161246802974573
-    second: 0x72_16x16DungeonTileset.v4_87
+    second: epee_noire
   - first:
       213: -236116857729605494
-    second: 0x72_16x16DungeonTileset.v4_88
+    second: epee_verte
   - first:
       213: 4773318063354004758
-    second: 0x72_16x16DungeonTileset.v4_89
+    second: epee_rouge
   - first:
       213: -7409135350123517624
-    second: 0x72_16x16DungeonTileset.v4_90
+    second: mur_gauche_tete_source_verte
   - first:
       213: 4891746802928649825
-    second: 0x72_16x16DungeonTileset.v4_91
+    second: mur_droite_tete_source_verte
   - first:
       213: 4458216257153036025
-    second: 0x72_16x16DungeonTileset.v4_92
+    second: mur_gauche_tete_source_bleue
   - first:
       213: -3366014636207287591
-    second: 0x72_16x16DungeonTileset.v4_93
+    second: mur_droite_tete_source_bleue
   - first:
       213: -2190124880856456709
-    second: 0x72_16x16DungeonTileset.v4_94
+    second: mur_gauche_tete_source_rouge
   - first:
       213: -6892843524471302157
-    second: 0x72_16x16DungeonTileset.v4_95
+    second: mur_droite_tete_source_rouge
   - first:
       213: 7367812981921034785
-    second: 0x72_16x16DungeonTileset.v4_96
+    second: sol_pave_1
   - first:
       213: -1889720886163706265
-    second: 0x72_16x16DungeonTileset.v4_97
+    second: sol_pave_2
   - first:
       213: 9039366961915433435
-    second: 0x72_16x16DungeonTileset.v4_98
+    second: sol_pave_3
   - first:
       213: -3443061804977262992
-    second: 0x72_16x16DungeonTileset.v4_99
+    second: sol_pave_4
   - first:
       213: -9142819376452729083
-    second: 0x72_16x16DungeonTileset.v4_100
+    second: sol_sombre
   - first:
       213: 482948339857228624
-    second: 0x72_16x16DungeonTileset.v4_101
+    second: icone_vert_petit
   - first:
       213: -8770923095257157617
-    second: 0x72_16x16DungeonTileset.v4_102
+    second: icone_jaune_petit
   - first:
       213: 1689093501950447882
-    second: 0x72_16x16DungeonTileset.v4_103
+    second: marteau
   - first:
       213: 3636231619382133255
-    second: 0x72_16x16DungeonTileset.v4_104
+    second: poignanrd_bleu_petit
   - first:
       213: -2448475857619190478
-    second: 0x72_16x16DungeonTileset.v4_105
+    second: icone_rouge_moyen
   - first:
       213: 2997759496334161217
-    second: 0x72_16x16DungeonTileset.v4_106
+    second: sol_gauche_liquide_vert
   - first:
       213: 8971970539055983848
-    second: 0x72_16x16DungeonTileset.v4_107
+    second: sol_droite_liquide_vert
   - first:
       213: -1413640316051263323
-    second: 0x72_16x16DungeonTileset.v4_108
+    second: sol_gauche_liquide_bleu
   - first:
       213: -6628088709791431376
-    second: 0x72_16x16DungeonTileset.v4_109
+    second: sol_droite_liquide_bleu
   - first:
       213: 5489671659407454958
-    second: 0x72_16x16DungeonTileset.v4_110
+    second: sol_gauche_liquide_rouge
   - first:
       213: -2768219066641240657
-    second: 0x72_16x16DungeonTileset.v4_111
+    second: sol_droite_liquide_rouge
   - first:
       213: 7701097790801283077
-    second: 0x72_16x16DungeonTileset.v4_112
+    second: sol_pave_5
   - first:
       213: -5110845235133137606
-    second: 0x72_16x16DungeonTileset.v4_113
+    second: sol_pave_6
   - first:
       213: -5979032450848295065
-    second: 0x72_16x16DungeonTileset.v4_114
+    second: sol_pave_7
   - first:
       213: -4597677020248401452
-    second: 0x72_16x16DungeonTileset.v4_115
+    second: sol_pave_8
   - first:
       213: 9080921748905162181
     second: sol_clair
   - first:
       213: 5747173110019870749
-    second: caisse
+    second: caisse_bas
   - first:
       213: -7047756869302206158
-    second: caisses
+    second: caisses_bas
   - first:
       213: -2817412173939569422
-    second: 0x72_16x16DungeonTileset.v4_119
+    second: sabre_petit
   - first:
       213: 369838348002803971
-    second: 0x72_16x16DungeonTileset.v4_120
+    second: sol_sombre_bas_NO
   - first:
       213: 8947698077413406190
-    second: 0x72_16x16DungeonTileset.v4_121
+    second: sol_sombre_bas_NE
   - first:
       213: 9133477337880769985
-    second: 0x72_16x16DungeonTileset.v4_122
+    second: sol_sombre_droite_NO
   - first:
       213: 9212056846828272936
-    second: 0x72_16x16DungeonTileset.v4_123
+    second: sol_sombre_droite_NE
   - first:
       213: 4596565657320805916
-    second: 0x72_16x16DungeonTileset.v4_124
+    second: sol_sombre_gauche_NO
   - first:
       213: 7776090629049439557
-    second: 0x72_16x16DungeonTileset.v4_125
+    second: sol_sombre_gauche_NE
   - first:
       213: -1577532319365631025
-    second: 0x72_16x16DungeonTileset.v4_126
+    second: sol_sombre_haut_NO
   - first:
       213: 859297637156213961
-    second: 0x72_16x16DungeonTileset.v4_127
+    second: sol_sombre_haut_NE
   - first:
       213: -8380307844930607816
-    second: 0x72_16x16DungeonTileset.v4_128
+    second: sol_pave_9
   - first:
       213: 7101968473870391900
-    second: 0x72_16x16DungeonTileset.v4_129
+    second: sol_pave_10
   - first:
       213: -8861092497118152259
-    second: 0x72_16x16DungeonTileset.v4_130
+    second: sol_pave_11
   - first:
       213: 9112976967911704340
-    second: 0x72_16x16DungeonTileset.v4_131
+    second: sol_pave_12
   - first:
       213: 7031747988447250810
-    second: 0x72_16x16DungeonTileset.v4_132
+    second: pale_moyen
   - first:
       213: -4285200350311413525
-    second: 0x72_16x16DungeonTileset.v4_133
+    second: icone_bordeaux_moyen
   - first:
       213: 15278367447641191
-    second: 0x72_16x16DungeonTileset.v4_134
+    second: icone_marron_moyen
   - first:
       213: 6926727195204286324
-    second: 0x72_16x16DungeonTileset.v4_135
+    second: icone_bleu_moyen
   - first:
       213: 4566912189759270625
-    second: 0x72_16x16DungeonTileset.v4_136
+    second: sol_sombre_bas_SO
   - first:
       213: 3368726333624807051
-    second: 0x72_16x16DungeonTileset.v4_137
+    second: sol_sombre_bas_SE
   - first:
       213: 9063631236692323181
-    second: 0x72_16x16DungeonTileset.v4_138
+    second: sol_sombre_droite_SO
   - first:
       213: -2839003409142337938
-    second: 0x72_16x16DungeonTileset.v4_139
+    second: sol_sombre_droite_SE
   - first:
       213: 2725425756703854222
-    second: 0x72_16x16DungeonTileset.v4_140
+    second: sol_sombre_gauche_SO
   - first:
       213: 2257920671665528994
-    second: 0x72_16x16DungeonTileset.v4_141
+    second: sol_sombre_gauche_SE
   - first:
       213: -940549252971349345
-    second: 0x72_16x16DungeonTileset.v4_142
+    second: sol_sombre_haut_SO
   - first:
       213: -8914430248288415423
-    second: 0x72_16x16DungeonTileset.v4_143
+    second: sol_sombre_haut_SE
   - first:
       213: -4221451346934658203
-    second: 0x72_16x16DungeonTileset.v4_144
+    second: pale_bebe
   - first:
       213: -8539944179904504042
-    second: 0x72_16x16DungeonTileset.v4_145
+    second: squelette
   - first:
       213: -7615159938796210210
-    second: 0x72_16x16DungeonTileset.v4_146
+    second: pale_grand_rouge
   - first:
       213: 2678665431603515882
-    second: 0x72_16x16DungeonTileset.v4_147
+    second: pale_grand_vert
   - first:
       213: 4358630679225853328
     second: chauve_souris
   - first:
       213: 7901659072802421414
-    second: 0x72_16x16DungeonTileset.v4_149
+    second: ennemi_capuche_bleue
   - first:
       213: -1940016878587857691
-    second: 0x72_16x16DungeonTileset.v4_150
+    second: ennemi_armure_cornes
   - first:
       213: -1055439847771235250
-    second: 0x72_16x16DungeonTileset.v4_151
+    second: icone_orange_moyen
   - first:
       213: 7895407734443937235
-    second: 0x72_16x16DungeonTileset.v4_152
+    second: icone_jaune_moyen
   - first:
       213: -3697958240959760236
-    second: 0x72_16x16DungeonTileset.v4_153
+    second: icone_vert_moyen
   - first:
       213: 4911823814989737592
-    second: 0x72_16x16DungeonTileset.v4_154
+    second: icone_bleu_clair_moyen
   - first:
       213: 6614858377706936308
     second: 0x72_16x16DungeonTileset.v4_155
@@ -502,49 +502,49 @@ TextureImporter:
     second: troll_sang
   - first:
       213: -1968919873715047534
-    second: 0x72_16x16DungeonTileset.v4_166
+    second: support_feu_vide
   - first:
       213: -2084057674463489607
-    second: 0x72_16x16DungeonTileset.v4_167
+    second: support_feu_1
   - first:
       213: 6423012242121451787
-    second: 0x72_16x16DungeonTileset.v4_168
+    second: support_feu_2
   - first:
       213: 4214336286073061106
-    second: 0x72_16x16DungeonTileset.v4_169
+    second: support_feu_3
   - first:
       213: 3212231868825631686
-    second: 0x72_16x16DungeonTileset.v4_170
+    second: support_feu_4
   - first:
       213: -1049659154853269601
-    second: 0x72_16x16DungeonTileset.v4_171
+    second: support_feu_5
   - first:
       213: 2842406023633408400
-    second: 0x72_16x16DungeonTileset.v4_172
+    second: support_feu_6
   - first:
       213: 4936273687739821008
-    second: 0x72_16x16DungeonTileset.v4_173
+    second: support_feu_7
   - first:
       213: 1329156267239525844
-    second: 0x72_16x16DungeonTileset.v4_174
+    second: support_feu_8
   - first:
       213: -1999291303203176638
-    second: 0x72_16x16DungeonTileset.v4_175
+    second: demon_bebe
   - first:
       213: -5828486625220804759
-    second: 0x72_16x16DungeonTileset.v4_176
+    second: demon_barres
   - first:
       213: -148229192712939097
-    second: 0x72_16x16DungeonTileset.v4_177
+    second: demon_canines
   - first:
       213: -7322730671446483607
-    second: 0x72_16x16DungeonTileset.v4_178
+    second: demon_gueule_ouverte
   - first:
       213: -1046484783844769108
-    second: 0x72_16x16DungeonTileset.v4_179
+    second: demon_chelou
   - first:
       213: 478629999437312120
-    second: 0x72_16x16DungeonTileset.v4_180
+    second: ennemi_capuche_rouge
   - first:
       213: -619384918145743185
     second: 0x72_16x16DungeonTileset.v4_181
@@ -568,31 +568,31 @@ TextureImporter:
     second: potion_rouge
   - first:
       213: 5882216204129329941
-    second: 0x72_16x16DungeonTileset.v4_188
+    second: pilier_haut_sans_fond
   - first:
       213: 3520753614568390888
-    second: 0x72_16x16DungeonTileset.v4_189
+    second: coffre_ferme
   - first:
       213: -3737266746655423200
-    second: 0x72_16x16DungeonTileset.v4_190
+    second: coffre_or_ferme
   - first:
       213: -4266422643307610706
-    second: 0x72_16x16DungeonTileset.v4_191
+    second: ennemi_pierre_grand
   - first:
       213: -9046620184034310443
-    second: 0x72_16x16DungeonTileset.v4_192
+    second: ennemi_eau_grand
   - first:
       213: -2636154287535089784
-    second: 0x72_16x16DungeonTileset.v4_193
+    second: ennemi_feu_grand
   - first:
       213: 3782820897218648570
-    second: 0x72_16x16DungeonTileset.v4_194
+    second: ennemi_squelette_grand
   - first:
       213: -6457154032449716477
-    second: 0x72_16x16DungeonTileset.v4_195
+    second: ennemi_vegetal_grand
   - first:
       213: -6944168493407467207
-    second: 0x72_16x16DungeonTileset.v4_196
+    second: ennemi_blob_grand
   - first:
       213: 8185803478318001955
     second: 0x72_16x16DungeonTileset.v4_197
@@ -604,7 +604,7 @@ TextureImporter:
     second: 0x72_16x16DungeonTileset.v4_199
   - first:
       213: 1022285000832635346
-    second: 0x72_16x16DungeonTileset.v4_200
+    second: demon_geant
   - first:
       213: 8687302743233086791
     second: 0x72_16x16DungeonTileset.v4_201
@@ -616,31 +616,31 @@ TextureImporter:
     second: potion_verte
   - first:
       213: 4415372670087760374
-    second: 0x72_16x16DungeonTileset.v4_204
+    second: pilier_sans_fond
   - first:
       213: 1733377417486955527
-    second: 0x72_16x16DungeonTileset.v4_205
+    second: coffre_ouvert_vide
   - first:
       213: 7049507203628222962
-    second: 0x72_16x16DungeonTileset.v4_206
+    second: coffre_or_ouvert_vide
   - first:
       213: 3857124109520202675
-    second: 0x72_16x16DungeonTileset.v4_207
+    second: ennemi_pierre_petit
   - first:
       213: 8874719656415300054
-    second: 0x72_16x16DungeonTileset.v4_208
+    second: ennemi_eau_petit
   - first:
       213: -5546355505098607474
-    second: 0x72_16x16DungeonTileset.v4_209
+    second: ennemi_feu_petit
   - first:
       213: -725764560379539225
-    second: 0x72_16x16DungeonTileset.v4_210
+    second: ennemi_squelette_petit
   - first:
       213: -8440902508104022171
-    second: 0x72_16x16DungeonTileset.v4_211
+    second: ennemi_vegetal_petit
   - first:
       213: 3163559612266917299
-    second: 0x72_16x16DungeonTileset.v4_212
+    second: ennemi_blob_petit
   - first:
       213: -6282858174289496602
     second: fiole_rouge
@@ -661,31 +661,31 @@ TextureImporter:
     second: potion_bleue
   - first:
       213: 921905194671877148
-    second: 0x72_16x16DungeonTileset.v4_219
+    second: sol_pilier_bas
   - first:
       213: 6882511384954987781
-    second: 0x72_16x16DungeonTileset.v4_220
+    second: coffre_ouvert_plein
   - first:
       213: -4527102890844184117
-    second: 0x72_16x16DungeonTileset.v4_221
+    second: coffre_or_ouvert_plein
   - first:
       213: -4318929749469572261
-    second: 0x72_16x16DungeonTileset.v4_222
+    second: ennemi_jaune_haut
   - first:
       213: -2751060010058266752
-    second: 0x72_16x16DungeonTileset.v4_223
+    second: ennemi_jaune_carre
   - first:
       213: -1865513366290063461
-    second: 0x72_16x16DungeonTileset.v4_224
+    second: ennemi_vert_haut
   - first:
       213: -2770766796904584168
-    second: 0x72_16x16DungeonTileset.v4_225
+    second: ennemi_vert_carre
   - first:
       213: -8369489974576557707
-    second: 0x72_16x16DungeonTileset.v4_226
+    second: homme_barbe
   - first:
       213: 6175332149635981407
-    second: 0x72_16x16DungeonTileset.v4_227
+    second: pirate
   - first:
       213: -7027413993682790196
     second: moise_rouge
@@ -694,10 +694,10 @@ TextureImporter:
     second: moise_violet
   - first:
       213: 3501319674719614977
-    second: 0x72_16x16DungeonTileset.v4_230
+    second: torse_nu_clair
   - first:
       213: -6223046019891202211
-    second: 0x72_16x16DungeonTileset.v4_231
+    second: torse_nu_bronze
   - first:
       213: 5032667599256020166
     second: 0x72_16x16DungeonTileset.v4_232
@@ -712,58 +712,64 @@ TextureImporter:
     second: 0x72_16x16DungeonTileset.v4_235
   - first:
       213: 4954537782454882926
-    second: 0x72_16x16DungeonTileset.v4_236
+    second: homme_bare_rousse
   - first:
       213: -1091275068858770327
-    second: 0x72_16x16DungeonTileset.v4_237
+    second: personnage_cheveux_longs_rouge
   - first:
       213: -7685701572923878998
-    second: 0x72_16x16DungeonTileset.v4_238
+    second: viking_bleu
   - first:
       213: 6294792448575620924
-    second: 0x72_16x16DungeonTileset.v4_239
+    second: viking_bronze
   - first:
       213: -1902292424786419459
-    second: 0x72_16x16DungeonTileset.v4_240
+    second: jeune_haut_vert
   - first:
       213: 7524226673125945325
-    second: 0x72_16x16DungeonTileset.v4_241
+    second: jeune_haut_orange
   - first:
       213: -5140375550938879004
-    second: 0x72_16x16DungeonTileset.v4_242
+    second: chevalier_poil_jaune
   - first:
       213: 4204757487683469102
-    second: 0x72_16x16DungeonTileset.v4_243
+    second: chevalier_poil_vert
   - first:
       213: -127885108630083313
-    second: 0x72_16x16DungeonTileset.v4_244
+    second: chevalier_poil_bleu
   - first:
       213: -1254183602032391468
-    second: 0x72_16x16DungeonTileset.v4_245
+    second: chevalier_or
   - first:
       213: -1086712222355086073
-    second: 0x72_16x16DungeonTileset.v4_39
+    second: icone_vert_pale_grand
   - first:
       213: -2566076460404262109
-    second: 0x72_16x16DungeonTileset.v4_40
+    second: icone_vert_pale_petit
   - first:
       213: -6127058008813110567
-    second: 0x72_16x16DungeonTileset.v4_41
+    second: icone_bordeaux_grand
   - first:
       213: -1717346390661757246
-    second: 0x72_16x16DungeonTileset.v4_43
+    second: icone_rouge_petit
   - first:
       213: -6511900201855615774
-    second: 0x72_16x16DungeonTileset.v4_44
+    second: icone_marron_petit
   - first:
       213: -3384164177905642730
-    second: 0x72_16x16DungeonTileset.v4_45
+    second: icone_bleu_petit
   - first:
       213: 2814270748473887354
-    second: 0x72_16x16DungeonTileset.v4_46
+    second: icone_bleu_fonce_moyen
   - first:
       213: -5638578424121061232
-    second: 0x72_16x16DungeonTileset.v4_58
+    second: icone_orange_petit
+  - first:
+      213: 8020143640844766479
+    second: caisse_haut
+  - first:
+      213: -6251682230944352461
+    second: caisses_haut
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1031,7 +1037,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_8
+      name: degoulinure_1
       rect:
         serializedVersion: 2
         x: 128
@@ -1115,7 +1121,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_19
+      name: mur_fuite_verte
       rect:
         serializedVersion: 2
         x: 48
@@ -1136,7 +1142,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_20
+      name: mur_grille_sol
       rect:
         serializedVersion: 2
         x: 64
@@ -1199,7 +1205,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_23
+      name: degoulinure_2
       rect:
         serializedVersion: 2
         x: 112
@@ -1220,7 +1226,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_24
+      name: degoulinure_3
       rect:
         serializedVersion: 2
         x: 128
@@ -1241,7 +1247,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_25
+      name: epee_bois
       rect:
         serializedVersion: 2
         x: 148
@@ -1262,7 +1268,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_26
+      name: epee_mi_bois_mi_bleue
       rect:
         serializedVersion: 2
         x: 163
@@ -1283,7 +1289,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_27
+      name: epee_bleue
       rect:
         serializedVersion: 2
         x: 179
@@ -1304,7 +1310,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_28
+      name: epee_bleue_rubis
       rect:
         serializedVersion: 2
         x: 195
@@ -1325,7 +1331,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_29
+      name: epee_bleue_grosse
       rect:
         serializedVersion: 2
         x: 211
@@ -1346,7 +1352,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_30
+      name: sabre_grand
       rect:
         serializedVersion: 2
         x: 229
@@ -1430,7 +1436,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_35
+      name: mur_bas_fuite_verte
       rect:
         serializedVersion: 2
         x: 48
@@ -1451,7 +1457,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_36
+      name: mur_abime_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1514,7 +1520,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_42
+      name: epee_orange_longue
       rect:
         serializedVersion: 2
         x: 163
@@ -1535,7 +1541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_47
+      name: marteau_grand
       rect:
         serializedVersion: 2
         x: 243
@@ -1556,7 +1562,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_48
+      name: haut_mur_tete_haute
       rect:
         serializedVersion: 2
         x: 0
@@ -1577,7 +1583,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_49
+      name: crane
       rect:
         serializedVersion: 2
         x: 16
@@ -1619,7 +1625,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_51
+      name: haut_mur_tete_basse
       rect:
         serializedVersion: 2
         x: 48
@@ -1640,7 +1646,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_52
+      name: mur_abime_2
       rect:
         serializedVersion: 2
         x: 64
@@ -1703,7 +1709,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_55
+      name: sabre_moyen
       rect:
         serializedVersion: 2
         x: 116
@@ -1724,7 +1730,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_56
+      name: couteau_bleu
       rect:
         serializedVersion: 2
         x: 133
@@ -1745,7 +1751,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_57
+      name: epee_orange
       rect:
         serializedVersion: 2
         x: 147
@@ -1766,7 +1772,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_59
+      name: sabre_grand_clair
       rect:
         serializedVersion: 2
         x: 181
@@ -1787,7 +1793,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_60
+      name: eppe_grande_claire
       rect:
         serializedVersion: 2
         x: 195
@@ -1808,7 +1814,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_61
+      name: epee_grande_claire_rubis
       rect:
         serializedVersion: 2
         x: 211
@@ -1829,7 +1835,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_62
+      name: epee_or
       rect:
         serializedVersion: 2
         x: 227
@@ -1871,7 +1877,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_64
+      name: mur_tete_source_rouge_vers_bac
       rect:
         serializedVersion: 2
         x: 0
@@ -1892,7 +1898,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_65
+      name: mur_tete_source_verte_vers_bac
       rect:
         serializedVersion: 2
         x: 16
@@ -1913,7 +1919,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_66
+      name: mur_tete_source_bleue_vers_bac
       rect:
         serializedVersion: 2
         x: 32
@@ -1934,7 +1940,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_67
+      name: mur_tete_source_rouge_vers_sol
       rect:
         serializedVersion: 2
         x: 48
@@ -1955,7 +1961,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_68
+      name: mur_tete_source_verte_vers_sol
       rect:
         serializedVersion: 2
         x: 64
@@ -1976,7 +1982,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_69
+      name: mur_tete_source_bleue_vers_sol
       rect:
         serializedVersion: 2
         x: 80
@@ -2018,7 +2024,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_74
+      name: haut_gauche_mur_tete
       rect:
         serializedVersion: 2
         x: 160
@@ -2039,7 +2045,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_75
+      name: haut_droite_mur_tete
       rect:
         serializedVersion: 2
         x: 176
@@ -2144,7 +2150,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_80
+      name: sol_liquide_rouge_tete_bac
       rect:
         serializedVersion: 2
         x: 0
@@ -2165,7 +2171,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_81
+      name: sol_liquide_verte_tete_bac
       rect:
         serializedVersion: 2
         x: 16
@@ -2186,7 +2192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_82
+      name: sol_liquide_bleue_tete_bac
       rect:
         serializedVersion: 2
         x: 32
@@ -2207,7 +2213,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_83
+      name: sol_liquide_rouge_tete_basse
       rect:
         serializedVersion: 2
         x: 48
@@ -2228,7 +2234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_84
+      name: sol_liquide_verte_tete_basse
       rect:
         serializedVersion: 2
         x: 64
@@ -2249,7 +2255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_85
+      name: sol_liquide_bleue_tete_basse
       rect:
         serializedVersion: 2
         x: 80
@@ -2291,7 +2297,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_87
+      name: epee_noire
       rect:
         serializedVersion: 2
         x: 115
@@ -2312,7 +2318,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_88
+      name: epee_verte
       rect:
         serializedVersion: 2
         x: 131
@@ -2333,7 +2339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_89
+      name: epee_rouge
       rect:
         serializedVersion: 2
         x: 147
@@ -2354,7 +2360,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_90
+      name: mur_gauche_tete_source_verte
       rect:
         serializedVersion: 2
         x: 160
@@ -2375,7 +2381,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_91
+      name: mur_droite_tete_source_verte
       rect:
         serializedVersion: 2
         x: 176
@@ -2396,7 +2402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_92
+      name: mur_gauche_tete_source_bleue
       rect:
         serializedVersion: 2
         x: 192
@@ -2417,7 +2423,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_93
+      name: mur_droite_tete_source_bleue
       rect:
         serializedVersion: 2
         x: 208
@@ -2438,7 +2444,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_94
+      name: mur_gauche_tete_source_rouge
       rect:
         serializedVersion: 2
         x: 224
@@ -2459,7 +2465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_95
+      name: mur_droite_tete_source_rouge
       rect:
         serializedVersion: 2
         x: 240
@@ -2480,7 +2486,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_96
+      name: sol_pave_1
       rect:
         serializedVersion: 2
         x: 0
@@ -2501,7 +2507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_97
+      name: sol_pave_2
       rect:
         serializedVersion: 2
         x: 16
@@ -2522,7 +2528,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_98
+      name: sol_pave_3
       rect:
         serializedVersion: 2
         x: 32
@@ -2543,7 +2549,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_99
+      name: sol_pave_4
       rect:
         serializedVersion: 2
         x: 48
@@ -2564,7 +2570,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_100
+      name: sol_sombre
       rect:
         serializedVersion: 2
         x: 64
@@ -2585,7 +2591,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_103
+      name: marteau
       rect:
         serializedVersion: 2
         x: 120
@@ -2606,7 +2612,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_104
+      name: poignanrd_bleu_petit
       rect:
         serializedVersion: 2
         x: 129
@@ -2627,7 +2633,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_106
+      name: sol_gauche_liquide_vert
       rect:
         serializedVersion: 2
         x: 160
@@ -2648,7 +2654,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_107
+      name: sol_droite_liquide_vert
       rect:
         serializedVersion: 2
         x: 176
@@ -2669,7 +2675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_108
+      name: sol_gauche_liquide_bleu
       rect:
         serializedVersion: 2
         x: 192
@@ -2690,7 +2696,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_109
+      name: sol_droite_liquide_bleu
       rect:
         serializedVersion: 2
         x: 208
@@ -2711,7 +2717,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_110
+      name: sol_gauche_liquide_rouge
       rect:
         serializedVersion: 2
         x: 224
@@ -2732,7 +2738,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_111
+      name: sol_droite_liquide_rouge
       rect:
         serializedVersion: 2
         x: 240
@@ -2753,7 +2759,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_112
+      name: sol_pave_5
       rect:
         serializedVersion: 2
         x: 0
@@ -2774,7 +2780,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_113
+      name: sol_pave_6
       rect:
         serializedVersion: 2
         x: 16
@@ -2795,7 +2801,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_114
+      name: sol_pave_7
       rect:
         serializedVersion: 2
         x: 32
@@ -2816,7 +2822,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_115
+      name: sol_pave_8
       rect:
         serializedVersion: 2
         x: 48
@@ -2858,13 +2864,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caisse
+      name: caisse_bas
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 16
-        height: 32
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2879,13 +2885,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caisses
+      name: caisses_bas
       rect:
         serializedVersion: 2
         x: 96
         y: 128
         width: 16
-        height: 32
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2900,7 +2906,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_119
+      name: sabre_petit
       rect:
         serializedVersion: 2
         x: 112
@@ -2921,7 +2927,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_120
+      name: sol_sombre_bas_NO
       rect:
         serializedVersion: 2
         x: 128
@@ -2942,7 +2948,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_121
+      name: sol_sombre_bas_NE
       rect:
         serializedVersion: 2
         x: 144
@@ -2963,7 +2969,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_122
+      name: sol_sombre_droite_NO
       rect:
         serializedVersion: 2
         x: 160
@@ -2984,7 +2990,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_123
+      name: sol_sombre_droite_NE
       rect:
         serializedVersion: 2
         x: 176
@@ -3005,7 +3011,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_124
+      name: sol_sombre_gauche_NO
       rect:
         serializedVersion: 2
         x: 192
@@ -3026,7 +3032,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_125
+      name: sol_sombre_gauche_NE
       rect:
         serializedVersion: 2
         x: 208
@@ -3047,7 +3053,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_126
+      name: sol_sombre_haut_NO
       rect:
         serializedVersion: 2
         x: 224
@@ -3068,7 +3074,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_127
+      name: sol_sombre_haut_NE
       rect:
         serializedVersion: 2
         x: 240
@@ -3089,7 +3095,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_128
+      name: sol_pave_9
       rect:
         serializedVersion: 2
         x: 0
@@ -3110,7 +3116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_129
+      name: sol_pave_10
       rect:
         serializedVersion: 2
         x: 16
@@ -3131,7 +3137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_130
+      name: sol_pave_11
       rect:
         serializedVersion: 2
         x: 32
@@ -3152,7 +3158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_131
+      name: sol_pave_12
       rect:
         serializedVersion: 2
         x: 48
@@ -3173,7 +3179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_132
+      name: pale_moyen
       rect:
         serializedVersion: 2
         x: 64
@@ -3194,7 +3200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_136
+      name: sol_sombre_bas_SO
       rect:
         serializedVersion: 2
         x: 128
@@ -3215,7 +3221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_137
+      name: sol_sombre_bas_SE
       rect:
         serializedVersion: 2
         x: 144
@@ -3236,7 +3242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_138
+      name: sol_sombre_droite_SO
       rect:
         serializedVersion: 2
         x: 160
@@ -3257,7 +3263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_139
+      name: sol_sombre_droite_SE
       rect:
         serializedVersion: 2
         x: 176
@@ -3278,7 +3284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_140
+      name: sol_sombre_gauche_SO
       rect:
         serializedVersion: 2
         x: 192
@@ -3299,7 +3305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_141
+      name: sol_sombre_gauche_SE
       rect:
         serializedVersion: 2
         x: 208
@@ -3320,7 +3326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_142
+      name: sol_sombre_haut_SO
       rect:
         serializedVersion: 2
         x: 224
@@ -3341,7 +3347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_143
+      name: sol_sombre_haut_SE
       rect:
         serializedVersion: 2
         x: 240
@@ -3362,7 +3368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_144
+      name: pale_bebe
       rect:
         serializedVersion: 2
         x: 0
@@ -3383,7 +3389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_145
+      name: squelette
       rect:
         serializedVersion: 2
         x: 16
@@ -3404,7 +3410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_146
+      name: pale_grand_rouge
       rect:
         serializedVersion: 2
         x: 32
@@ -3425,7 +3431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_147
+      name: pale_grand_vert
       rect:
         serializedVersion: 2
         x: 48
@@ -3467,7 +3473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_149
+      name: ennemi_capuche_bleue
       rect:
         serializedVersion: 2
         x: 80
@@ -3488,7 +3494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_150
+      name: ennemi_armure_cornes
       rect:
         serializedVersion: 2
         x: 96
@@ -3635,7 +3641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_166
+      name: support_feu_vide
       rect:
         serializedVersion: 2
         x: 112
@@ -3656,7 +3662,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_167
+      name: support_feu_1
       rect:
         serializedVersion: 2
         x: 128
@@ -3677,7 +3683,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_168
+      name: support_feu_2
       rect:
         serializedVersion: 2
         x: 144
@@ -3698,7 +3704,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_169
+      name: support_feu_3
       rect:
         serializedVersion: 2
         x: 160
@@ -3719,7 +3725,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_170
+      name: support_feu_4
       rect:
         serializedVersion: 2
         x: 176
@@ -3740,7 +3746,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_171
+      name: support_feu_5
       rect:
         serializedVersion: 2
         x: 192
@@ -3761,7 +3767,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_172
+      name: support_feu_6
       rect:
         serializedVersion: 2
         x: 208
@@ -3782,7 +3788,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_173
+      name: support_feu_7
       rect:
         serializedVersion: 2
         x: 224
@@ -3803,7 +3809,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_174
+      name: support_feu_8
       rect:
         serializedVersion: 2
         x: 240
@@ -3824,7 +3830,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_175
+      name: demon_bebe
       rect:
         serializedVersion: 2
         x: 0
@@ -3845,7 +3851,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_176
+      name: demon_barres
       rect:
         serializedVersion: 2
         x: 16
@@ -3866,7 +3872,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_177
+      name: demon_canines
       rect:
         serializedVersion: 2
         x: 32
@@ -3887,7 +3893,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_178
+      name: demon_gueule_ouverte
       rect:
         serializedVersion: 2
         x: 48
@@ -3908,7 +3914,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_179
+      name: demon_chelou
       rect:
         serializedVersion: 2
         x: 64
@@ -3929,7 +3935,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_180
+      name: ennemi_capuche_rouge
       rect:
         serializedVersion: 2
         x: 80
@@ -3971,7 +3977,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_188
+      name: pilier_haut_sans_fond
       rect:
         serializedVersion: 2
         x: 208
@@ -3992,7 +3998,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_189
+      name: coffre_ferme
       rect:
         serializedVersion: 2
         x: 224
@@ -4013,7 +4019,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_190
+      name: coffre_or_ferme
       rect:
         serializedVersion: 2
         x: 240
@@ -4034,7 +4040,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_191
+      name: ennemi_pierre_grand
       rect:
         serializedVersion: 2
         x: 0
@@ -4055,7 +4061,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_192
+      name: ennemi_eau_grand
       rect:
         serializedVersion: 2
         x: 16
@@ -4076,7 +4082,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_193
+      name: ennemi_feu_grand
       rect:
         serializedVersion: 2
         x: 32
@@ -4097,7 +4103,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_194
+      name: ennemi_squelette_grand
       rect:
         serializedVersion: 2
         x: 48
@@ -4118,7 +4124,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_195
+      name: ennemi_vegetal_grand
       rect:
         serializedVersion: 2
         x: 64
@@ -4139,7 +4145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_196
+      name: ennemi_blob_grand
       rect:
         serializedVersion: 2
         x: 80
@@ -4181,7 +4187,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_200
+      name: demon_geant
       rect:
         serializedVersion: 2
         x: 128
@@ -4244,7 +4250,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_204
+      name: pilier_sans_fond
       rect:
         serializedVersion: 2
         x: 208
@@ -4265,7 +4271,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_205
+      name: coffre_ouvert_vide
       rect:
         serializedVersion: 2
         x: 224
@@ -4286,7 +4292,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_206
+      name: coffre_or_ouvert_vide
       rect:
         serializedVersion: 2
         x: 240
@@ -4307,7 +4313,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_207
+      name: ennemi_pierre_petit
       rect:
         serializedVersion: 2
         x: 0
@@ -4328,7 +4334,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_208
+      name: ennemi_eau_petit
       rect:
         serializedVersion: 2
         x: 16
@@ -4349,7 +4355,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_209
+      name: ennemi_feu_petit
       rect:
         serializedVersion: 2
         x: 32
@@ -4370,7 +4376,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_210
+      name: ennemi_squelette_petit
       rect:
         serializedVersion: 2
         x: 48
@@ -4391,7 +4397,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_211
+      name: ennemi_vegetal_petit
       rect:
         serializedVersion: 2
         x: 64
@@ -4412,7 +4418,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_212
+      name: ennemi_blob_petit
       rect:
         serializedVersion: 2
         x: 80
@@ -4559,7 +4565,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_219
+      name: sol_pilier_bas
       rect:
         serializedVersion: 2
         x: 208
@@ -4580,7 +4586,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_220
+      name: coffre_ouvert_plein
       rect:
         serializedVersion: 2
         x: 224
@@ -4601,7 +4607,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_221
+      name: coffre_or_ouvert_plein
       rect:
         serializedVersion: 2
         x: 240
@@ -4622,7 +4628,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_222
+      name: ennemi_jaune_haut
       rect:
         serializedVersion: 2
         x: 0
@@ -4643,7 +4649,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_223
+      name: ennemi_jaune_carre
       rect:
         serializedVersion: 2
         x: 16
@@ -4664,7 +4670,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_224
+      name: ennemi_vert_haut
       rect:
         serializedVersion: 2
         x: 32
@@ -4685,7 +4691,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_225
+      name: ennemi_vert_carre
       rect:
         serializedVersion: 2
         x: 48
@@ -4706,7 +4712,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_226
+      name: homme_barbe
       rect:
         serializedVersion: 2
         x: 96
@@ -4727,7 +4733,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_227
+      name: pirate
       rect:
         serializedVersion: 2
         x: 112
@@ -4790,7 +4796,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_230
+      name: torse_nu_clair
       rect:
         serializedVersion: 2
         x: 160
@@ -4811,7 +4817,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_231
+      name: torse_nu_bronze
       rect:
         serializedVersion: 2
         x: 176
@@ -4832,7 +4838,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_236
+      name: homme_bare_rousse
       rect:
         serializedVersion: 2
         x: 96
@@ -4853,7 +4859,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_237
+      name: personnage_cheveux_longs_rouge
       rect:
         serializedVersion: 2
         x: 112
@@ -4874,7 +4880,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_238
+      name: viking_bleu
       rect:
         serializedVersion: 2
         x: 128
@@ -4895,7 +4901,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_239
+      name: viking_bronze
       rect:
         serializedVersion: 2
         x: 144
@@ -4916,7 +4922,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_240
+      name: jeune_haut_vert
       rect:
         serializedVersion: 2
         x: 160
@@ -4937,7 +4943,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_241
+      name: jeune_haut_orange
       rect:
         serializedVersion: 2
         x: 176
@@ -4958,7 +4964,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_242
+      name: chevalier_poil_jaune
       rect:
         serializedVersion: 2
         x: 192
@@ -4979,7 +4985,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_243
+      name: chevalier_poil_vert
       rect:
         serializedVersion: 2
         x: 208
@@ -5000,7 +5006,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_244
+      name: chevalier_poil_bleu
       rect:
         serializedVersion: 2
         x: 224
@@ -5021,7 +5027,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_245
+      name: chevalier_or
       rect:
         serializedVersion: 2
         x: 240
@@ -5042,7 +5048,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_9
+      name: poignard_bleu
       rect:
         serializedVersion: 2
         x: 137
@@ -5063,7 +5069,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_10
+      name: poignard_orange
       rect:
         serializedVersion: 2
         x: 145
@@ -5084,7 +5090,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_11
+      name: poignard_clair
       rect:
         serializedVersion: 2
         x: 152
@@ -5105,7 +5111,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_12
+      name: icone_beige_moyen
       rect:
         serializedVersion: 2
         x: 81
@@ -5126,7 +5132,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_13
+      name: icone_blanc_casse_moyen
       rect:
         serializedVersion: 2
         x: 86
@@ -5147,7 +5153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_14
+      name: icone_pierre_moyen
       rect:
         serializedVersion: 2
         x: 91
@@ -5168,7 +5174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_15
+      name: icone_violet_moyen
       rect:
         serializedVersion: 2
         x: 96
@@ -5189,7 +5195,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_31
+      name: icone_blanc_casse_petit
       rect:
         serializedVersion: 2
         x: 81
@@ -5210,7 +5216,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_39
+      name: icone_vert_pale_grand
       rect:
         serializedVersion: 2
         x: 81
@@ -5231,7 +5237,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_40
+      name: icone_vert_pale_petit
       rect:
         serializedVersion: 2
         x: 85
@@ -5252,7 +5258,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_41
+      name: icone_bordeaux_grand
       rect:
         serializedVersion: 2
         x: 87
@@ -5273,7 +5279,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_43
+      name: icone_rouge_petit
       rect:
         serializedVersion: 2
         x: 89
@@ -5294,7 +5300,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_44
+      name: icone_marron_petit
       rect:
         serializedVersion: 2
         x: 93
@@ -5315,7 +5321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_45
+      name: icone_bleu_petit
       rect:
         serializedVersion: 2
         x: 97
@@ -5336,7 +5342,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_46
+      name: icone_bleu_fonce_moyen
       rect:
         serializedVersion: 2
         x: 101
@@ -5357,7 +5363,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_58
+      name: icone_orange_petit
       rect:
         serializedVersion: 2
         x: 101
@@ -5378,7 +5384,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_71
+      name: icone_bleu_clair_petit
       rect:
         serializedVersion: 2
         x: 105
@@ -5441,7 +5447,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_101
+      name: icone_vert_petit
       rect:
         serializedVersion: 2
         x: 109
@@ -5462,7 +5468,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_102
+      name: icone_jaune_petit
       rect:
         serializedVersion: 2
         x: 113
@@ -5483,7 +5489,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_105
+      name: icone_rouge_moyen
       rect:
         serializedVersion: 2
         x: 116
@@ -5504,7 +5510,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_133
+      name: icone_bordeaux_moyen
       rect:
         serializedVersion: 2
         x: 121
@@ -5525,7 +5531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_134
+      name: icone_marron_moyen
       rect:
         serializedVersion: 2
         x: 113
@@ -5546,7 +5552,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_135
+      name: icone_bleu_moyen
       rect:
         serializedVersion: 2
         x: 118
@@ -5567,7 +5573,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_151
+      name: icone_orange_moyen
       rect:
         serializedVersion: 2
         x: 123
@@ -5588,7 +5594,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_152
+      name: icone_jaune_moyen
       rect:
         serializedVersion: 2
         x: 123
@@ -5609,7 +5615,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_153
+      name: icone_vert_moyen
       rect:
         serializedVersion: 2
         x: 118
@@ -5630,7 +5636,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_154
+      name: icone_bleu_clair_moyen
       rect:
         serializedVersion: 2
         x: 113
@@ -5646,6 +5652,48 @@ TextureImporter:
       bones: []
       spriteID: 87e64cb5cbd4a2440800000000000000
       internalID: 4911823814989737592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caisse_haut
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d092816264d4f60800000000000000
+      internalID: 8020143640844766479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caisses_haut
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337b0ff32209d39a0800000000000000
+      internalID: -6251682230944352461
       vertices: []
       indices: 
       edges: []
