@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 302579567}
   - component: {fileID: 302579566}
   - component: {fileID: 302579565}
+  - component: {fileID: 302579568}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -283,7 +284,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 302579566}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 302579568}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: goToGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &302579566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,6 +335,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302579563}
   m_CullTransparentMesh: 0
+--- !u!114 &302579568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302579563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b959f8c9a2f432c489f6f5d0162d4756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &477407088
 GameObject:
   m_ObjectHideFlags: 0
