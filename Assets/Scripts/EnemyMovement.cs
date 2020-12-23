@@ -6,17 +6,19 @@ public class EnemyMovement : MonoBehaviour
 {
 
     private SpriteRenderer _spriteRenderer;
+    private GameObject player;
     
     // Start is called before the first frame update
     void Start()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
         Vector3 playerPosition = player.GetComponent<Transform>().position;
         Vector3 enemyPosition = transform.position;
         playerPosition.z = enemyPosition.z; // puisque le jeu est en 2D, on s'assure que les calculs suivants ne prendront pas en compte la profondeur
