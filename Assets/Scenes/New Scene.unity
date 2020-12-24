@@ -6383,6 +6383,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1913628604506903902, guid: c32af589d764444428f9c6918909dc97, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4378596177707109218, guid: c32af589d764444428f9c6918909dc97, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.56
@@ -6425,10 +6429,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4378596177707109218, guid: c32af589d764444428f9c6918909dc97, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4378596177707109219, guid: c32af589d764444428f9c6918909dc97, type: 3}
-      propertyPath: m_DrawMode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4378596177707109229, guid: c32af589d764444428f9c6918909dc97, type: 3}

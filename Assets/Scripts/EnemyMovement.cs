@@ -7,8 +7,10 @@ public class EnemyMovement : MonoBehaviour
 
     public float sightDistance = 3f;
     public float doNotGoFurtherDistance = 1.2f; // pas certain du nom de celle-ci, utilisée pour ne pas trop s'approcher du joueur car il est dangereux
+    public float movementSpeed = 3f;
     private SpriteRenderer _spriteRenderer;
     private GameObject _player;
+    private Rigidbody2D _enemyRigidbody;
     private bool _playerIsInSight;
     private bool _isChasingPlayer;
     
@@ -17,7 +19,7 @@ public class EnemyMovement : MonoBehaviour
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _player = GameObject.FindGameObjectWithTag("Player");
-        
+        _enemyRigidbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -29,7 +31,7 @@ public class EnemyMovement : MonoBehaviour
         float distance = Vector3.Distance(playerPosition, enemyPosition);
         if (distance < sightDistance && distance > doNotGoFurtherDistance) // si l'ennemi est proche du joueur, mais pas trop
         {
-            transform.position = Vector3.MoveTowards(enemyPosition, playerPosition, Time.deltaTime * 10f);
+            _enemyRigidbody.MovePosition(Vector2.MoveTowards(enemyPosition, playerPosition, Time.deltaTime * movementSpeed));
             if (playerPosition.x > enemyPosition.x)
             {
                 _spriteRenderer.flipX = true;
@@ -38,6 +40,10 @@ public class EnemyMovement : MonoBehaviour
             {
                 _spriteRenderer.flipX = false;
             }
+        }
+        else
+        {
+            _enemyRigidbody.velocity = new Vector2(0f, 0f);
         }
     }
 }
