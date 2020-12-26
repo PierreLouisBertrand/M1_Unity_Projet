@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager instance;
-    private bool isPaused = false;
+    private bool isPaused;
 
     void Start()
     {
@@ -24,15 +24,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isPaused)
-        {
-            Time.timeScale = 0f;
-        }
+        
     }
 
     public void pause()
     {
         this.isPaused = true;
+        Time.timeScale = 0f;
     }
 
     public void resume()
