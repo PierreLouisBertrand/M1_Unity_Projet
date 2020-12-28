@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 0a6cb44322a06ac4f99942dc543e2386
+guid: a40d0bcd28beaa949bb9ef7b5089bd0c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4723512664964045273
+      213: 4014076248026403714
     second: coeur_vide
   - first:
-      213: 6550144534041176215
+      213: -2449782932870847705
     second: coeur_plein
+  - first:
+      213: -929351124067014577
+    second: coeur_moitie
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,6 +64,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -121,8 +126,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72662c8e146b27eb0800000000000000
-      internalID: -4723512664964045273
+      spriteID: 28352f0841dd4b730800000000000000
+      internalID: 4014076248026403714
       vertices: []
       indices: 
       edges: []
@@ -142,8 +147,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 798adf2efb9c6ea50800000000000000
-      internalID: 6550144534041176215
+      spriteID: 7232b6de66f900ed0800000000000000
+      internalID: -2449782932870847705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coeur_moitie
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48206a93184a13f0800000000000000
+      internalID: -929351124067014577
       vertices: []
       indices: 
       edges: []
