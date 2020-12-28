@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     public float maximumHealth;
     private float _health;
     public Image healthBar;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +35,9 @@ public class Enemy : MonoBehaviour
 
     void UpdateHealthBar()
     {
-        healthBar.fillAmount = _health / maximumHealth;
+        float fillAmount = _health / maximumHealth;
+        healthBar.fillAmount = fillAmount;
+        healthBar.color = Color.Lerp(Color.red, Color.green, fillAmount);
     }
     
     
