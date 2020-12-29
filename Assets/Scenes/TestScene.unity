@@ -572,6 +572,7 @@ GameObject:
   - component: {fileID: 967101851}
   - component: {fileID: 967101852}
   - component: {fileID: 967101853}
+  - component: {fileID: 967101854}
   m_Layer: 0
   m_Name: Moise
   m_TagString: Player
@@ -724,6 +725,25 @@ MonoBehaviour:
   fullHearth: {fileID: -2449782932870847705, guid: a40d0bcd28beaa949bb9ef7b5089bd0c, type: 3}
   halfHearth: {fileID: -929351124067014577, guid: a40d0bcd28beaa949bb9ef7b5089bd0c, type: 3}
   emptyHearth: {fileID: 4014076248026403714, guid: a40d0bcd28beaa949bb9ef7b5089bd0c, type: 3}
+--- !u!95 &967101854
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967101847}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fc1ca9da579be8c4a8fa89133f17199e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1171217519
 GameObject:
   m_ObjectHideFlags: 0
