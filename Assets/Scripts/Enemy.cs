@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TakeDamage(1f);
+        
     }
 
     void TakeDamage(float amount)

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7584934035813496783}
   - component: {fileID: 373681195}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: OrcWarrior
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -396,7 +396,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &8021314611330584282
 MonoBehaviour:
   m_ObjectHideFlags: 0
