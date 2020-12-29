@@ -14,7 +14,7 @@ public class EnemyMovement : MonoBehaviour
     private Rigidbody2D _enemyRigidbody;
     private bool _playerIsInSight;
     private bool _isChasingPlayer;
-    private bool _isMoving;
+    public bool hasRunningAnimation = true;
     
     // Start is called before the first frame update
     void Start()
@@ -45,12 +45,18 @@ public class EnemyMovement : MonoBehaviour
                 _spriteRenderer.flipX = true;
             }
 
-            animator.SetBool("IsMoving", true);
+            if (hasRunningAnimation)
+            {
+                animator.SetBool("IsMoving", true);    
+            }
         }
         else
         {
             _enemyRigidbody.velocity = new Vector2(0f, 0f);
-            animator.SetBool("IsMoving", false);
+            if (hasRunningAnimation)
+            {
+                animator.SetBool("IsMoving", false);
+            }
         }
     }
 }
