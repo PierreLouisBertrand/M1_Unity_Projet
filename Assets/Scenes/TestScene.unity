@@ -438,30 +438,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &504415578 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4378596177707109229, guid: c32af589d764444428f9c6918909dc97, type: 3}
-  m_PrefabInstance: {fileID: 4378596177281224955}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &504415579
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504415578}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 96502ed4704de5742ad2a44f52f79023, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &732069773
 GameObject:
   m_ObjectHideFlags: 0
@@ -6841,25 +6817,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4378596177707109219, guid: c32af589d764444428f9c6918909dc97, type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4378596177707109219, guid: c32af589d764444428f9c6918909dc97, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 2559402461238433685, guid: 81b54435667b563408ebb94549cda0f7, type: 3}
-    - target: {fileID: 4378596177707109228, guid: c32af589d764444428f9c6918909dc97, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 504415579}
     - target: {fileID: 4378596177707109229, guid: c32af589d764444428f9c6918909dc97, type: 3}
       propertyPath: m_Name
       value: OrcWarrior
-      objectReference: {fileID: 0}
-    - target: {fileID: 7584934035813496783, guid: c32af589d764444428f9c6918909dc97, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c32af589d764444428f9c6918909dc97, type: 3}

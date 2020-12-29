@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1913628604506903902}
   - component: {fileID: 7584934035813496783}
   - component: {fileID: 373681195}
+  - component: {fileID: 504415579}
   m_Layer: 0
   m_Name: OrcWarrior
   m_TagString: Enemy
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 603979391230035031, guid: fb82022a89f257c4bb09a236a6593da4, type: 3}
+  m_Sprite: {fileID: 2559402461238433685, guid: 81b54435667b563408ebb94549cda0f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,6 +103,7 @@ MonoBehaviour:
   sightDistance: 3
   doNotGoFurtherDistance: 1.2
   movementSpeed: 3
+  animator: {fileID: 504415579}
 --- !u!50 &1913628604506903902
 Rigidbody2D:
   serializedVersion: 4
@@ -140,7 +142,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1, y: 1.25}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -163,6 +165,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maximumHealth: 200
   healthBar: {fileID: 188155274274434805}
+--- !u!95 &504415579
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4378596177707109229}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 96502ed4704de5742ad2a44f52f79023, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5386245291299120438
 GameObject:
   m_ObjectHideFlags: 0
