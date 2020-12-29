@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float moveSpeed;
     public Joystick joystick;
+    public Animator animator;
     private bool _isMoving; // utilisé pour gérer l'animation de déplacement du personnage
     private bool _isFacingLeft; // pour faire regarder le personnage dans la direction dans laquelle il va
 
@@ -46,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
             inputX * moveSpeed,
             inputY * moveSpeed
         );
+        
+        animator.SetBool("IsMoving", _isMoving);
 
         GetComponent<Rigidbody2D>().velocity = movement;
 
