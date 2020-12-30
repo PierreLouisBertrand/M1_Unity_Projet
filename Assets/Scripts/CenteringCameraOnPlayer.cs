@@ -10,17 +10,13 @@ public class CenteringCameraOnPlayer : MonoBehaviour
     private Vector3 _playerPosition;
     private bool _isCenteringEnabled = true;
 
-    private void Start()
-    {
-        _playerPosition = player.GetComponent<Transform>().position;
-    }
-
     // Update is called once per frame
     void Update()
     {
         if (_isCenteringEnabled)
         {
-            transform.position = new Vector3(_playerPosition.x, _playerPosition.y, -1f);   
+            _playerPosition = player.GetComponent<Transform>().position;
+            transform.position = new Vector3(_playerPosition.x, _playerPosition.y, -10f);   
         }
     }
 
