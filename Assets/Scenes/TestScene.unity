@@ -6583,6 +6583,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057823842}
   m_CullTransparentMesh: 0
+--- !u!1 &2070200279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2733286186241987657, guid: fc688dee92eacf348a6a93875e5117c7, type: 3}
+  m_PrefabInstance: {fileID: 4371262373773031074}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2070200280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070200279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56bec453fb6e5cd4d9d97bb36c1c0141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2096175863
 GameObject:
   m_ObjectHideFlags: 0
@@ -6710,15 +6727,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4371262374185892664, guid: fc688dee92eacf348a6a93875e5117c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 4371262374185892664, guid: fc688dee92eacf348a6a93875e5117c7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.96
+      value: 2.28
       objectReference: {fileID: 0}
     - target: {fileID: 4371262374185892664, guid: fc688dee92eacf348a6a93875e5117c7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4371262374185892664, guid: fc688dee92eacf348a6a93875e5117c7, type: 3}
       propertyPath: m_LocalRotation.w

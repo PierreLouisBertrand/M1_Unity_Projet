@@ -13,7 +13,7 @@ public class ChangeScene : MonoBehaviour
 
     public void goToGame()
     {
-        SceneManager.LoadScene("New Scene");
+        SceneManager.LoadScene("Scenes/TestScene");
     }
     
 }
