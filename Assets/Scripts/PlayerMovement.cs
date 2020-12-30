@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed;
     public Joystick joystick;
     public Animator animator;
+    public GameObject weaponSlot;
     private bool _isMoving; // utilisé pour gérer l'animation de déplacement du personnage
     private bool _isFacingLeft; // pour faire regarder le personnage dans la direction dans laquelle il va
 
@@ -52,6 +53,20 @@ public class PlayerMovement : MonoBehaviour
 
         GetComponent<Rigidbody2D>().velocity = movement;
 
+        
+        Vector3 weaponSlotPosition = weaponSlot.transform.position;
+        if (_isFacingLeft)
+        {
+            weaponSlotPosition.x = transform.position.x - .4f;
+        }
+        else
+        {
+            weaponSlotPosition.x = transform.position.x + .4f;
+        }
+        weaponSlot.GetComponent<Transform>().position = weaponSlotPosition;
+        
         GetComponent<SpriteRenderer>().flipX = _isFacingLeft;
+
+        
     }
 }

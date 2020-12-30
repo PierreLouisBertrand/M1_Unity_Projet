@@ -14,7 +14,6 @@ public class PlayerWeapon : MonoBehaviour
     void Start()
     {
         _hasWeapon = true;
-        DropWeapon();
     }
 
     // Update is called once per frame

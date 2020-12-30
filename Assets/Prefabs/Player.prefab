@@ -135,6 +135,7 @@ MonoBehaviour:
   moveSpeed: 3
   joystick: {fileID: 0}
   animator: {fileID: 4371262374185892668}
+  weaponSlot: {fileID: 1618005756}
 --- !u!50 &4371262374185892665
 Rigidbody2D:
   serializedVersion: 4
