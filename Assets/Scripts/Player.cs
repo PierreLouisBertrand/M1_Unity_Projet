@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
         thirdHearth.sprite = fullHearth;
     }
 
-    void TakeDamage()
+    public void TakeDamage()
     {
         _health -= 1;
         switch (_health)

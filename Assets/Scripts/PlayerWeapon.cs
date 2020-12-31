@@ -9,17 +9,13 @@ public class PlayerWeapon : MonoBehaviour
     public GameObject weaponSlot;
     private bool _hasWeapon;
     public GameObject weaponAssigned;
+    private Weapon _weapon;
     
     // Start is called before the first frame update
     void Start()
     {
         _hasWeapon = true;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        _weapon = weaponAssigned.GetComponent<Weapon>();
     }
 
     /**
@@ -59,5 +55,10 @@ public class PlayerWeapon : MonoBehaviour
     public bool hasWeapon()
     {
         return _hasWeapon;
+    }
+
+    public void Attack()
+    {
+        _weapon.Attack_Clockwise();
     }
 }
