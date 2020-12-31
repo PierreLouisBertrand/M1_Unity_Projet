@@ -10,6 +10,7 @@ public class PlayerWeapon : MonoBehaviour
     private bool _hasWeapon;
     public GameObject weaponAssigned;
     private Weapon _weapon;
+    private bool _isFacingRight;
     
     // Start is called before the first frame update
     void Start()
@@ -57,8 +58,20 @@ public class PlayerWeapon : MonoBehaviour
         return _hasWeapon;
     }
 
+    public void setIsFacingRight(bool isFacingRight)
+    {
+        _isFacingRight = isFacingRight;
+    }
+
     public void Attack()
     {
-        _weapon.Attack_Clockwise();
+        if (_isFacingRight)
+        {
+            _weapon.Attack_Clockwise();
+        }
+        else
+        {
+            _weapon.Attack_CounterClockwise();
+        }
     }
 }

@@ -11,7 +11,6 @@ public class Player : MonoBehaviour
     private int _health;
     public Image firstHearth, secondHearth, thirdHearth;
     public Sprite fullHearth, halfHearth, emptyHearth;
-    public GameObject weaponSlot;
     
     // Start is called before the first frame update
     void Start()
@@ -20,6 +19,7 @@ public class Player : MonoBehaviour
         firstHearth.sprite = fullHearth;
         secondHearth.sprite = fullHearth;
         thirdHearth.sprite = fullHearth;
+        
     }
 
     public void TakeDamage()
