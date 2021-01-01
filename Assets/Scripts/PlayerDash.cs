@@ -6,6 +6,9 @@ public class PlayerDash : MonoBehaviour
 {
 
     public Rigidbody2D rigidbody2D;
+    public float dashForce = 500f;
+    public float dashDuration = 0.2f;
+    public Joystick joystick;
     private bool _isDashing;
     private float _dashCountdown;
     private Vector3 _dashForce;
@@ -20,7 +23,6 @@ public class PlayerDash : MonoBehaviour
     {
         if (_isDashing)
         {
-            Debug.Log(_dashCountdown);
             rigidbody2D.AddForce(_dashForce);
             _dashCountdown -= Time.deltaTime;
             if (_dashCountdown < 0f)
@@ -35,9 +37,14 @@ public class PlayerDash : MonoBehaviour
         if (!_isDashing)
         {
             _isDashing = true;
-            _dashCountdown = .5f;
+            _dashCountdown = dashDuration;
             Debug.Log("dashing");
-            Vector3 dashForce = new Vector3(50f, 0f, 0f);    
+            Debug.Log(joystick.Horizontal);
+            Debug.Log(joystick.Vertical);
+            _dashForce = new Vector3(dashForce * joystick.Horizontal, dashForce * joystick.Vertical, 0f);
+            Debug.Log(_dashForce.x);
+            Debug.Log(_dashForce.y);
+            Debug.Log(_dashForce.z);
         }
     }
 }
