@@ -338,7 +338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sightDistance: 3
   doNotGoFurtherDistance: 1.2
-  movementSpeed: 3
+  movementSpeed: 5
   animator: {fileID: 504415579}
   hasRunningAnimation: 1
   weaponSlot: {fileID: 8263054116525690357}
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f570eb770eec19d4fb2a6aa75576e803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximumHealth: 200
+  maximumHealth: 50
   healthBar: {fileID: 188155274274434805}
 --- !u!95 &504415579
 Animator:
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 1224959021390669773}
-  attackDelay: 2
+  attackDelay: 3
   timeBar: {fileID: 4924444081188722584}
 --- !u!1 &5386245291299120438
 GameObject:

@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f570eb770eec19d4fb2a6aa75576e803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximumHealth: 200
+  maximumHealth: 40
   healthBar: {fileID: 188155274274434805}
 --- !u!95 &504415579
 Animator:
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 1214530825623744761}
-  attackDelay: 0
+  attackDelay: 7
   timeBar: {fileID: 5144927019012403259}
 --- !u!1 &5386245291299120438
 GameObject:
