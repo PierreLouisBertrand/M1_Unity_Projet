@@ -5,15 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
+    
+    public static ChangeScene instance;
 
-    public void goToMainMenu()
+    void Start()
     {
-        SceneManager.LoadScene("01 - MainMenu");
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(instance.gameObject);
+        }
+        else if (this != instance)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
-    public void goToGame()
+    public void goToScene(string sceneName)
     {
-        SceneManager.LoadScene("Scenes/TestScene");
+        SceneManager.LoadScene(sceneName);
     }
     
 }

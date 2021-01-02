@@ -13,12 +13,14 @@ public class PlayerMovement : MonoBehaviour
     private bool _isMoving; // utilisé pour gérer l'animation de déplacement du personnage
     private bool _isFacingLeft; // pour faire regarder le personnage dans la direction dans laquelle il va
     private PlayerWeapon _playerWeapon;
+    private float _weaponSlotOffset;
 
     void Start()
     {
         _isFacingLeft = false; // par défaut, le personnage regarde vers la droite
         _playerWeapon = GetComponent<PlayerWeapon>();
         _playerWeapon.setIsFacingRight(!_isFacingLeft);
+        _weaponSlotOffset = weaponSlot.transform.position.x - transform.position.x;
     }
 
     // Update is called once per frame
@@ -60,12 +62,12 @@ public class PlayerMovement : MonoBehaviour
         Vector3 weaponSlotPosition = weaponSlot.transform.position;
         if (_isFacingLeft)
         {
-            weaponSlotPosition.x = transform.position.x - .4f;
+            weaponSlotPosition.x = transform.position.x - _weaponSlotOffset;
             _playerWeapon.setIsFacingRight(false);
         }
         else
         {
-            weaponSlotPosition.x = transform.position.x + .4f;
+            weaponSlotPosition.x = transform.position.x + _weaponSlotOffset;
             _playerWeapon.setIsFacingRight(true);
         }
         weaponSlot.GetComponent<Transform>().position = weaponSlotPosition;

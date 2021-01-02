@@ -47,9 +47,9 @@ public class Player : MonoBehaviour
                 break;
         }
 
-        if (_health == 0)
+        if (_health == 0) // le joueur est éliminé. fin de parcours
         {
-            // le joueur est éliminé. fin de parcours
+            ChangeScene.instance.goToScene("GameOver (Perdu)");
         }
     }
 

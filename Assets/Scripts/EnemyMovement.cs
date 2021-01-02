@@ -15,6 +15,9 @@ public class EnemyMovement : MonoBehaviour
     private bool _playerIsInSight;
     private bool _isChasingPlayer;
     public bool hasRunningAnimation = true;
+    public GameObject weaponSlot;
+    private float _weaponSlotOffset;
+    private bool _isFacingRight;
     
     // Start is called before the first frame update
     void Start()
@@ -22,6 +25,8 @@ public class EnemyMovement : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _player = GameObject.FindGameObjectWithTag("Player");
         _enemyRigidbody = GetComponent<Rigidbody2D>();
+        _weaponSlotOffset = weaponSlot.transform.position.x - transform.position.x;
+        _isFacingRight = true;
     }
 
     // Update is called once per frame
@@ -35,15 +40,23 @@ public class EnemyMovement : MonoBehaviour
         if (distance < sightDistance && distance > doNotGoFurtherDistance) // si l'ennemi est proche du joueur, mais pas trop
         {
             _enemyRigidbody.MovePosition(Vector2.MoveTowards(enemyPosition, playerPosition, Time.deltaTime * movementSpeed));
+
+            Vector3 weaponSlotPosition = weaponSlot.transform.position;
             
             if (playerPosition.x > enemyPosition.x)
             {
                 _spriteRenderer.flipX = false;
+                _isFacingRight = true;
+                weaponSlotPosition.x = transform.position.x + _weaponSlotOffset;
             }
             else
             {
                 _spriteRenderer.flipX = true;
+                _isFacingRight = false;
+                weaponSlotPosition.x = transform.position.x - _weaponSlotOffset;
             }
+
+            weaponSlot.GetComponent<Transform>().position = weaponSlotPosition;
 
             if (hasRunningAnimation)
             {
@@ -59,4 +72,6 @@ public class EnemyMovement : MonoBehaviour
             }
         }
     }
+
+    public bool IsFacingRight => _isFacingRight;
 }
