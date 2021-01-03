@@ -10,24 +10,20 @@ public class RoomManager : MonoBehaviour
     public GameObject enemies; // doit pointer vers le gameObject qui a comme enfants les ennemis de la salle
     public Door exitDoor;
     private bool _hasPlayerEntered;
-    private bool _isFinished;
-    private BoxCollider2D _entryCollider;
+    public bool isFinalBossRoom;
 
     // Update is called once per frame
     void Update()
     {
-        if (!_isFinished)
+        if (!_hasPlayerEntered) // si le joueur n'est pas encore entré dans la salle,
+                                // on en surveille pas la complétion
+                                // (fait de tuer tous les ennemis dans la salle)
         {
-            if (!_hasPlayerEntered) // si le joueur n'est pas encore entré dans la salle,
-                                    // on en surveille pas la complétion
-                                    // (fait de tuer tous les ennemis dans la salle)
-            {
-                return;
-            }
-            if (enemies.transform.childCount == 0) // s'il n'y a plus d'ennemis dans la salle
-            {
-                OnRoomFinished();
-            }
+            return;
+        }
+        if (enemies.transform.childCount == 0) // s'il n'y a plus d'ennemis dans la salle
+        {
+            OnRoomFinished();
         }
     }
 
@@ -37,13 +33,27 @@ public class RoomManager : MonoBehaviour
         {
             door.Close();
         }
+
+        for (int i = 0; i < enemies.transform.childCount; i++)
+        {
+            // Pour chaque ennemi, on active le suivi du joueur (déplacement vers le joueur)
+            enemies.transform.GetChild(i).GetComponent<EnemyMovement>().IsChasingPlayer = true;
+        }
     }
 
     void OnRoomFinished()
     {
         Debug.Log("Le joueur vient de finir la salle");
-        exitDoor.Open(); // on ouvre la porte de sortie, pour que le joueur puisse accéder à la salle suivante
-        _isFinished = true;
+        if (!isFinalBossRoom)
+        {
+            exitDoor.Open(); // on ouvre la porte de sortie, pour que le joueur puisse accéder à la salle suivante
+        }
+        else // c'est la dernière salle du niveau, il faut donc féliciter le joueur et lui proposer d'aller au niveau suivant
+        {
+            GameState.instance.LevelFinished();
+        }
+
+        this.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

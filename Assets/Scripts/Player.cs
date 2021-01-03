@@ -46,10 +46,12 @@ public class Player : MonoBehaviour
                 firstHearth.sprite = emptyHearth;
                 break;
         }
+        
+        GameState.instance.PlayerHit();
 
         if (_health == 0) // le joueur est éliminé. fin de parcours
         {
-            ChangeScene.instance.goToScene("GameOver (Perdu)");
+            GameState.instance.PlayerDeath();
         }
     }
 

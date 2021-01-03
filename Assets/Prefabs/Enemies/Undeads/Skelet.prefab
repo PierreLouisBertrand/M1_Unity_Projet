@@ -216,9 +216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a0f825edfecf12479f8b4f07bf3aeb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sightDistance: 3
   doNotGoFurtherDistance: 1.2
-  movementSpeed: 5
+  movementSpeed: 4
   animator: {fileID: 504415579}
   hasRunningAnimation: 1
   weaponSlot: {fileID: 1404764553162823123}

@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/01 - MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: bdb0096258b9e6f4ea5cf70db94c4001
   - enabled: 1
-    path: Assets/Scenes/TestScene.unity
-    guid: 1141c06e5c106e442ae610e82b7beb33
+    path: Assets/Scenes/Level 1 - Undeads.unity
+    guid: 69fddb755ff99c54497ea87bf9530417
   - enabled: 1
-    path: Assets/Scenes/GameOver (Gagne).unity
-    guid: fda152547a31acf439355e811eac2186
+    path: Assets/Scenes/Level 2 - Orcs.unity
+    guid: 18440e74f0457ec418037e136723e719
   - enabled: 1
-    path: Assets/Scenes/GameOver (Perdu).unity
+    path: Assets/Scenes/Level 3 - Demons.unity
+    guid: 4db96e5d10f62454ea588b7913568c74
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
     guid: 2017889fc46b35d4bb54fc057ae6ed59
   m_configObjects: {}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerDash : MonoBehaviour
 {
 
-    public Rigidbody2D rigidbody2D;
+    private Rigidbody2D _rigidbody2D;
     public float dashForce = 500f;
     public float dashDuration = 0.2f;
     public Joystick joystick;
@@ -16,6 +16,7 @@ public class PlayerDash : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -23,7 +24,7 @@ public class PlayerDash : MonoBehaviour
     {
         if (_isDashing)
         {
-            rigidbody2D.AddForce(_dashForce);
+            _rigidbody2D.AddForce(_dashForce);
             _dashCountdown -= Time.deltaTime;
             if (_dashCountdown < 0f)
             {

@@ -5,15 +5,13 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
 
-    public float sightDistance = 3f;
     public float doNotGoFurtherDistance = 1.2f; // pas certain du nom de celle-ci, utilisée pour ne pas trop s'approcher du joueur car il est dangereux
     public float movementSpeed = 3f;
     public Animator animator;
     private SpriteRenderer _spriteRenderer;
     private GameObject _player;
     private Rigidbody2D _enemyRigidbody;
-    private bool _playerIsInSight;
-    private bool _isChasingPlayer;
+    private bool _isChasingPlayer; // par défaut, les ennemis ignorent le joueur
     public bool hasRunningAnimation = true;
     public GameObject weaponSlot;
     private float _weaponSlotOffset;
@@ -32,46 +30,54 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 playerPosition = _player.transform.position;
-        Vector3 enemyPosition = transform.position;
-        playerPosition.z = enemyPosition.z; // puisque le jeu est en 2D, on s'assure que les calculs de distance ne prennent pas en compte le Z
-        float distance = Vector3.Distance(playerPosition, enemyPosition);
-        
-        if (distance < sightDistance && distance > doNotGoFurtherDistance) // si l'ennemi est proche du joueur, mais pas trop
+        if (_isChasingPlayer) // quand l'ennemi est "activé"
         {
-            _enemyRigidbody.MovePosition(Vector2.MoveTowards(enemyPosition, playerPosition, Time.deltaTime * movementSpeed));
-
-            Vector3 weaponSlotPosition = weaponSlot.transform.position;
-            
-            if (playerPosition.x > enemyPosition.x)
+            Vector3 playerPosition = _player.transform.position;
+            Vector3 enemyPosition = transform.position;
+            playerPosition.z = enemyPosition.z; // puisque le jeu est en 2D, on s'assure que les calculs de distance ne prennent pas en compte le Z
+            float distance = Vector3.Distance(playerPosition, enemyPosition);
+        
+            if (distance > doNotGoFurtherDistance) // si le joueur n'est pas assez loin
             {
-                _spriteRenderer.flipX = false;
-                _isFacingRight = true;
-                weaponSlotPosition.x = transform.position.x + _weaponSlotOffset;
+                _enemyRigidbody.MovePosition(Vector2.MoveTowards(enemyPosition, playerPosition, Time.deltaTime * movementSpeed));
+
+                Vector3 weaponSlotPosition = weaponSlot.transform.position;
+            
+                if (playerPosition.x > enemyPosition.x)
+                {
+                    _spriteRenderer.flipX = false;
+                    _isFacingRight = true;
+                    weaponSlotPosition.x = transform.position.x + _weaponSlotOffset;
+                }
+                else
+                {
+                    _spriteRenderer.flipX = true;
+                    _isFacingRight = false;
+                    weaponSlotPosition.x = transform.position.x - _weaponSlotOffset;
+                }
+
+                weaponSlot.GetComponent<Transform>().position = weaponSlotPosition;
+
+                if (hasRunningAnimation)
+                {
+                    animator.SetBool("IsMoving", true);    
+                }
             }
             else
             {
-                _spriteRenderer.flipX = true;
-                _isFacingRight = false;
-                weaponSlotPosition.x = transform.position.x - _weaponSlotOffset;
-            }
-
-            weaponSlot.GetComponent<Transform>().position = weaponSlotPosition;
-
-            if (hasRunningAnimation)
-            {
-                animator.SetBool("IsMoving", true);    
-            }
-        }
-        else
-        {
-            _enemyRigidbody.velocity = new Vector2(0f, 0f);
-            if (hasRunningAnimation)
-            {
-                animator.SetBool("IsMoving", false);
+                _enemyRigidbody.velocity = new Vector2(0f, 0f);
+                if (hasRunningAnimation)
+                {
+                    animator.SetBool("IsMoving", false);
+                }
             }
         }
     }
 
     public bool IsFacingRight => _isFacingRight;
+
+    public bool IsChasingPlayer
+    {
+        set => _isChasingPlayer = value;
+    }
 }

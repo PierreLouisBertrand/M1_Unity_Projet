@@ -740,6 +740,9 @@ TextureImporter:
   - first:
       213: 8352446332941072400
     second: door_right
+  - first:
+      213: 6200269702908457055
+    second: floor_black
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -6002,6 +6005,27 @@ TextureImporter:
       bones: []
       spriteID: 0187778cfa9d9e370800000000000000
       internalID: 8352446332941072400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_black
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50b971c178cb0650800000000000000
+      internalID: 6200269702908457055
       vertices: []
       indices: 
       edges: []

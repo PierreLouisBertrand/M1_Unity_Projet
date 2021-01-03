@@ -367,7 +367,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a0f825edfecf12479f8b4f07bf3aeb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sightDistance: 3
   doNotGoFurtherDistance: 1.2
   movementSpeed: 3
   animator: {fileID: 504415579}
@@ -432,7 +431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f570eb770eec19d4fb2a6aa75576e803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximumHealth: 150
+  maximumHealth: 300
   healthBar: {fileID: 188155274274434805}
 --- !u!95 &504415579
 Animator:
