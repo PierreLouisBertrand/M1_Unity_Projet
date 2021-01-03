@@ -13,12 +13,21 @@ public class GameOverManager : MonoBehaviour
     {
         if (GameState.instance.PlayerHasLost)
         {
+            AudioManager.instance.Play("GameOver");
             continueButton.enabled = false;
             title.text = "Vous avez perdu... (niveau " + GameState.instance.CurrentLevel + ")";
             score.text = "Score : " + GameState.instance.GetScore();
         }
-        else
+        else if (GameState.instance.CurrentLevel == 3) // le joueur vient de terminer le dernier niveau du jeu
         {
+            AudioManager.instance.Play("GameVictory");
+            continueButton.enabled = false;
+            title.text = "Vous avez terminé le jeu !";
+            score.text = "Score : " + GameState.instance.GetScore();
+        }
+        else // le joueur a terminé le niveau 1 ou 2
+        {
+            AudioManager.instance.Play("LevelVictory");
             continueButton.enabled = true;
             title.text = "Niveau " + GameState.instance.CurrentLevel + " réussi !";
             score.text = "Score : " + GameState.instance.GetScore();

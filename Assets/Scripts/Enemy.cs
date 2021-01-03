@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour
         UpdateHealthBar();
         if (_health <= 0f)
         {
+            AudioManager.instance.Play("MonsterDeath");
             Destroy(gameObject);
         }
     }

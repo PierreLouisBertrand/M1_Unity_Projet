@@ -43,4 +43,76 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b986edc4b0bb568498b7df9a965568db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: MainMenuMusic
+    clip: {fileID: 8300000, guid: a579a39c8ad6bfc4cae808bc60f91d4c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Cave
+    clip: {fileID: 8300000, guid: 0085e337658adb847b2258f52374e1f1, type: 3}
+    volume: 0.494
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: LevelVictory
+    clip: {fileID: 8300000, guid: 667aa2ab78903024ba841b36f8c5f268, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 4b79b7766b0218b49a4b7813bd2426e0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LevelStart
+    clip: {fileID: 8300000, guid: 330540058c2200b40be17fe1dff9d4bd, type: 3}
+    volume: 0.543
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RoomStart
+    clip: {fileID: 8300000, guid: b4517ab84b418474ab0d8d7dfb05a0b7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RoomEnd
+    clip: {fileID: 8300000, guid: 737282a24f9de4143b05ae396e3c7bcb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameVictory
+    clip: {fileID: 8300000, guid: 933cd758bb37e0a49adff67eaf8a1438, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MonsterDeath
+    clip: {fileID: 8300000, guid: 99701759fcfcb9947b8174097c7eb643, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SwordWoosh
+    clip: {fileID: 8300000, guid: bfba642933a548344b3ce798391ec4fa, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HoleFall
+    clip: {fileID: 8300000, guid: 5612d07fc2da08940ab9057c9038c576, type: 3}
+    volume: 0.791
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDamage
+    clip: {fileID: 8300000, guid: 1625f4d733002a64095de3c8902b0305, type: 3}
+    volume: 0.791
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

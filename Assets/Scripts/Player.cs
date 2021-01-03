@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
 
     public void TakeDamage()
     {
+        AudioManager.instance.Play("PlayerDamage");
         _health -= 1;
         switch (_health)
         {

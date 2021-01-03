@@ -2,12 +2,14 @@ using UnityEngine.Audio;
 using System;
 using UnityEngine;
 
+// Classe qui vient du tutoriel de Brackeys https://www.youtube.com/watch?v=6OT43pvUyfY
+// (libre de droits)
 public class AudioManager : MonoBehaviour
 {
 
     public Sound[] sounds;
 
-    public static AudioManager instance;
+    public static AudioManager instance; // singleton utilisé dans tout le jeu
     
     void Awake()
     {
@@ -44,15 +46,5 @@ public class AudioManager : MonoBehaviour
     public void Stop(string soundName)
     {
         FindSound(soundName)?.source.Stop();
-    }
-
-    public void Pause(string soundName)
-    {
-        FindSound(soundName)?.source.Pause();
-    }
-
-    public void Resume(string soundName)
-    {
-        FindSound(soundName)?.source.UnPause();
     }
 }

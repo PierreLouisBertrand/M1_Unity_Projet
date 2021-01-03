@@ -58,21 +58,20 @@ public class GameState : MonoBehaviour
 
     public void LevelFinished()
     {
-        if (!_level1finished)
+        switch (_currentLevel)
         {
-            _level1finished = true;
-            Debug.Log("niveau 1 terminé");
-        }
-        else if (!_level2finished)
-        {
-            _level2finished = true;
-            
-            Debug.Log("niveau 2 terminé");
-        }
-        else if (!_level3finished)
-        {
-            _level3finished = true;
-            Debug.Log("niveau 3 terminé");
+            case 1:
+                _level1finished = true;
+                Debug.Log("niveau 1 terminé");
+                break;
+            case 2:
+                _level2finished = true;
+                Debug.Log("niveau 2 terminé");
+                break;
+            default:
+                _level3finished = true;
+                Debug.Log("niveau 3 terminé");
+                break;
         }
         _changeScene.goToGameOver();
     }
@@ -88,15 +87,13 @@ public class GameState : MonoBehaviour
         Debug.Log("go to next level");
         
         _currentLevel++;
-        
-        Debug.Log(_level1finished);
-        
-        if (_level1finished)
+
+        if (_currentLevel == 2)
         {
             Debug.Log("-> goto level 2");
             _changeScene.goToLevel2();
         }
-        else if (_level2finished)
+        else if (_currentLevel == 3)
         {
             Debug.Log("--> goto level 3");
             _changeScene.goToLevel3();

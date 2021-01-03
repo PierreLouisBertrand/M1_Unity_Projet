@@ -23,11 +23,13 @@ public class Weapon : MonoBehaviour
 
     public void Attack_Clockwise()
     {
+        AudioManager.instance.Play("SwordWoosh");
         _animator.SetTrigger("Attack_Clockwise");
     }
     
     public void Attack_CounterClockwise()
     {
+        AudioManager.instance.Play("SwordWoosh");
         _animator.SetTrigger("Attack_CounterClockwise");
     }
 

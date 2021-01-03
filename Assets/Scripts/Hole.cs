@@ -10,6 +10,7 @@ public class Hole : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
+            AudioManager.instance.Play("HoleFall");
             // Partie terminée, le joueur vient de mourir en tombant dans le trou
             GameState.instance.PlayerDeath();
         }

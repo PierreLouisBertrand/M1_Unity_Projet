@@ -7197,7 +7197,7 @@ Tilemap:
       - {fileID: -6923135825675129248, guid: 81b54435667b563408ebb94549cda0f7, type: 3}
       - {fileID: 2897451028032953836, guid: 81b54435667b563408ebb94549cda0f7, type: 3}
       - {fileID: -6110361351189417579, guid: 81b54435667b563408ebb94549cda0f7, type: 3}
-      m_AnimationSpeed: 12.000001
+      m_AnimationSpeed: 12
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -25219,6 +25219,63 @@ Transform:
   m_Father: {fileID: 88607581}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1625125872
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 511459204360025671, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_Name
+      value: LevelMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 511459204360025673, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 511459204360025673, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.11385094
+      objectReference: {fileID: 0}
+    - target: {fileID: 511459204360025673, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.13750415
+      objectReference: {fileID: 0}
+    - target: {fileID: 511459204360025673, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.146665
+      objectReference: {fileID: 0}
+    - target: {fileID: 511459204360025673, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 511459204360025673, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 511459204360025673, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 511459204360025673, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 511459204360025673, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 511459204360025673, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 511459204360025673, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f17bf63bb8d01c448bc209e5714cd9b0, type: 3}
 --- !u!114 &1638830103 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 967101849, guid: fc688dee92eacf348a6a93875e5117c7, type: 3}

@@ -13,10 +13,10 @@ EditorBuildSettings:
     guid: 69fddb755ff99c54497ea87bf9530417
   - enabled: 1
     path: Assets/Scenes/Level 2 - Orcs.unity
-    guid: 18440e74f0457ec418037e136723e719
+    guid: 7817bc42537726142845471999cc2014
   - enabled: 1
     path: Assets/Scenes/Level 3 - Demons.unity
-    guid: 4db96e5d10f62454ea588b7913568c74
+    guid: eec5be2f36f5ee54ca15981884bd9eb5
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 2017889fc46b35d4bb54fc057ae6ed59

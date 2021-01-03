@@ -29,6 +29,8 @@ public class RoomManager : MonoBehaviour
 
     void OnPlayerEntry()
     {
+        AudioManager.instance.Play("RoomStart");
+
         foreach (var door in doorsAround) 
         {
             door.Close();
@@ -44,6 +46,9 @@ public class RoomManager : MonoBehaviour
     void OnRoomFinished()
     {
         Debug.Log("Le joueur vient de finir la salle");
+        
+        AudioManager.instance.Play("RoomEnd");
+        
         if (!isFinalBossRoom)
         {
             exitDoor.Open(); // on ouvre la porte de sortie, pour que le joueur puisse accéder à la salle suivante
